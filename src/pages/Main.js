@@ -1,3 +1,8 @@
+import { Link } from "react-router-dom";
+
+import BathandBeauty from "../components/BathandBeauty";
+import Beverages from "../components/Beverages";
+import Food from "../components/Food";
 import MainNavigation from "../components/layout/MainNavigation";
 
 function Main() {
@@ -10,9 +15,9 @@ function Main() {
             <div class="banner-content">
               <h1>We sell Pure natural products</h1>
               <p>Flat 40% OFF on all products</p>
-              <a href="products.html" class="btn btn-danger btn-lg active">
+              <Link to="/products" class="btn btn-danger btn-lg active">
                 Shop Now
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -20,39 +25,9 @@ function Main() {
           <div class="container">
             <div class="padding-20"></div>
             <div class="row">
-              <div class="col-xs-4 text-center">
-                <div class="thumbnail">
-                  <a href="Bath&Beauty.html">
-                    <img src="img/Beauty/Bath.jpg" alt="Beauty" />
-                  </a>
-                  <div class="caption">
-                    <h2>Bath & Beauty</h2>
-                    <p>Original Beauty products from the best brands.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-4 text-center">
-                <div class="thumbnail">
-                  <a href="Beverages.html">
-                    <img src="img/Beverages/Beverage.jpg" alt="Beverages" />
-                  </a>
-                  <div class="caption">
-                    <h2>Beverages</h2>
-                    <p>Choose among the best available.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-4 text-center">
-                <div class="thumbnail">
-                  <a href="Food.html">
-                    <img src="img/Food/Food.jpg" alt="Shirt" />
-                  </a>
-                  <div class="caption">
-                    <h2>Food</h2>
-                    <p>Pure and healthy Food.</p>
-                  </div>
-                </div>
-              </div>
+              <BathandBeauty title="Bath and Beauty" />
+              <Beverages />
+              <Food />
             </div>
             <div class="padding-20"></div>
           </div>

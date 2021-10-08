@@ -46,6 +46,11 @@ function LoginPage() {
           </div>
         </div>
       </main>
+      <footer>
+        <div class="container">
+          <center>Copyright © Pure Feel Store. All Rights Reserved</center>
+        </div>
+      </footer>
     </div>
   );
 }

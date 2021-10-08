@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import MainNavigation from "../components/layout/MainNavigation";
 
 function Register() {
@@ -61,13 +63,18 @@ function Register() {
                 </div>
                 <button class="btn btn-primary">Submit</button>
                 <div class="hint-text">
-                  Already have an account? <a href="login.html">Login here</a>
+                  Already have an account? <Link to="/login">Login here</Link>
                 </div>
               </form>
             </div>
           </div>
         </div>
       </main>
+      <footer>
+        <div class="container">
+          <center>Copyright © Pure Feel Store. All Rights Reserved</center>
+        </div>
+      </footer>
     </div>
   );
 }

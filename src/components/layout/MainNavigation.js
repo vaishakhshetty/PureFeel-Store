@@ -28,19 +28,19 @@ function MainNavigation() {
                 </Link>
               </li>
               <li>
-                <a href="contact.html">
+                <Link to="#">
                   <span class="contact-us">Contact Us</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="index.html">
+                <Link to="#">
                   <span class="about-us">Feedback</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="index.html">
+                <Link to="#">
                   <span class="about-us">About Us</span>
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/sign-up">
