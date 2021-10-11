@@ -16,40 +16,35 @@ function MainNavigation() {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <Link to="/" class="navbar-brand">
+            <Link to="/home" class="navbar-brand">
               Pure Feel
             </Link>
           </div>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <Link to="/">
+                <Link to="/home">
                   <span class="about-us">Home</span>
                 </Link>
               </li>
               <li>
-                <Link to="#">
+                <Link to="/Contact">
                   <span class="contact-us">Contact Us</span>
                 </Link>
               </li>
               <li>
-                <Link to="#">
+                <Link to="/Feedback">
                   <span class="about-us">Feedback</span>
                 </Link>
               </li>
               <li>
-                <Link to="#">
+                <Link to="/AboutUs">
                   <span class="about-us">About Us</span>
                 </Link>
               </li>
               <li>
-                <Link to="/sign-up">
-                  <span class="">SignUp</span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/login" id="button-link">
-                  <span class="toggle-button"> Login</span>
+                <Link to="/login">
+                  <span class="glyphicon glyphicon-log-out"> Logout</span>
                 </Link>
               </li>
             </ul>

@@ -1,3 +1,15 @@
-.signIn{
-    color: blue;
+.loginMain{
+    border: 2px solid rgba(15, 15, 199, 0.699);
+    border-radius: 5px;
+    padding: 20px;
+    height: 340px;
+    width: 500px;
+    
+}
+.heading{
+    color: white;
+    background-color: rgba(15, 15, 199, 0.699);
+    text-size-adjust: 10px;
+    padding: 20px;
+    border-radius: 5px;
 }

@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function BathandBeauty(props) {
   return (
     <div class="col-xs-4 text-center">
       <div class="thumbnail">
-        <a href="Bath&Beauty.html">
+        <Link to="/products">
           <img src="img/Beauty/Bath.jpg" alt="Beauty" />
-        </a>
+        </Link>
         <div class="caption">
           <h2>{props.title}</h2>
           <p>Original Beauty products from the best brands.</p>
